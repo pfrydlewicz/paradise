@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include paradise *.css
+recursive-include paradise *.csv
+recursive-include paradise *.html
+recursive-include paradise *.ico
+recursive-include paradise *.js
+recursive-include paradise *.json
+recursive-include paradise *.md
+recursive-include paradise *.png
+recursive-include paradise *.py
+recursive-include paradise *.svg
+recursive-include paradise *.txt
+recursive-exclude paradise *.pyc
