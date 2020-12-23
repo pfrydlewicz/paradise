@@ -1,1 +1,134 @@
-[]
+[
+ {
+  "description": "<div>This term is broadly similar to CFR term, with the exception that the seller is required to obtain insurance for the goods while in transit. CIF requires the seller to insure the goods for 110% of the contract value under Institute Cargo Clauses (A) of the Institute of London Underwriters (which is a change from Incoterms 2010 where the minimum was Institute Cargo Clauses (C)), or any similar set of clauses, unless specifically agreed by both parties. The policy should be in the same currency as the contract. The seller must also turn over documents necessary, to obtain the goods from the carrier or to assert claim against an insurer to the buyer. The documents include (as a minimum) the invoice, the insurance policy, and the <a href=\"https://en.wikipedia.org/wiki/Bill_of_lading\">bill of lading</a>. These three documents represent the cost, insurance, and freight of CIF. The seller's obligation ends when the documents are handed over to the buyer. Then, the buyer has to pay at the agreed price. Another point to consider is that CIF should only be used for non-containerized sea freight; for all other modes of transport it should be replaced with CIP. </div>",
+  "docstatus": 0,
+  "doctype": "Incoterm",
+  "fullname": "Cost Insurance and Freight",
+  "incoterm_name": "CIF",
+  "modified": "2020-12-22 22:15:10.695674",
+  "name": "CIF",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "<div>The seller makes the goods available at their premises, or at another named place. This term places the maximum obligation on the buyer and minimum obligations on the seller. The Ex Works term is often used while making an initial quotation for the sale of goods without any costs included.</div><div>EXW means that a buyer incurs the risks of bringing the goods to their final destination. Either the seller does not load the goods on collecting vehicles and does not clear them for export, or if the seller does load the goods, they do so at buyer's risk and cost. If the parties agree that the seller should be responsible for the loading of the goods on departure and to bear the risk and all costs of such loading, this must be made clear by adding explicit wording to this effect in the contract of sale.</div><div>There is no obligation for the seller to make a contract of carriage, but there is also no obligation for the buyer to arrange one either - the buyer may sell the goods on to their own customer for collection from the original seller's warehouse. However, in common practice the buyer arranges the collection of the freight from the designated location, and is responsible for clearing the goods through Customs. The buyer is also responsible for completing all the export documentation, although the seller does have an obligation to obtain information and documents at the buyer's request and cost.</div><div>These documentary requirements may result in two principal issues. Firstly, the stipulation for the buyer to complete the export declaration can be an issue in certain jurisdictions (not least the European Union) where the customs regulations require the declarant to be either an individual or corporation resident within the jurisdiction. If the buyer is based outside of the customs jurisdiction, they will be unable to clear the goods for export, meaning that the goods may be declared in the name of the seller by the buyer, even though the export formalities are the buyer's responsibility under the EXW term.<a href=\"https://en.wikipedia.org/wiki/Incoterms#cite_note-13\"><sup>[13]</sup></a></div><div>Secondly, most jurisdictions require companies to provide proof of export for tax purposes. In an EXW shipment, the buyer is under no obligation to provide such proof to the seller, or indeed to even export the goods. In a customs jurisdiction such as the European Union, this would leave the seller liable to a sales tax bill as if the goods were sold to a domestic customer. It is therefore of utmost importance that these matters are discussed with the buyer before the contract is agreed. It may well be that another Incoterm, such as FCA <em>seller's premises</em>, may be more suitable, since this puts the onus for declaring the goods for export onto the seller, which provides for more control over the export process.<a href=\"https://en.wikipedia.org/wiki/Incoterms#cite_note-14\"><sup>[14]</sup></a></div><h3><br></h3><div><br></div>",
+  "docstatus": 0,
+  "doctype": "Incoterm",
+  "fullname": "Ex Works",
+  "incoterm_name": "EXW",
+  "modified": "2020-12-22 22:16:08.732264",
+  "name": "EXW",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "<div>The seller delivers the goods, cleared for export, at a named place (possibly including the seller's own premises). The goods can be delivered to a carrier nominated by the buyer, or to another party nominated by the buyer.</div><div>In many respects this Incoterm has replaced FOB in modern usage, although the critical point at which the risk passes moves from loading aboard the vessel to the named place. The chosen place of delivery affects the obligations of loading and unloading the goods at that place.</div><div>If delivery occurs at the seller's premises, or at any other location that is under the seller's control, the seller is responsible for loading the goods on to the buyer's carrier. However, if delivery occurs at any other place, the seller is deemed to have delivered the goods once their transport has arrived at the named place; the buyer is responsible for both unloading the goods and loading them onto their own carrier.</div><div><br></div>",
+  "docstatus": 0,
+  "doctype": "Incoterm",
+  "fullname": "Free Carrier",
+  "incoterm_name": null,
+  "modified": "2020-12-22 22:04:40.368201",
+  "name": "FCA",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "<div>CPT replaces the C&amp;F (cost and freight) and CFR terms for all shipping modes outside of non-containerized seafreight.</div><div>The seller pays for the carriage of the goods up to the named place of destination. However, the goods are considered to be delivered when the goods have been handed over to the first or main carrier, so that the risk transfers to buyer upon handing goods over to that carrier at the place of shipment in the country of Export.</div><div>The seller is responsible for origin costs including export clearance and freight costs for carriage to the named place of destination (either the final destination such as the buyer's facilities or a port of destination. This has to be agreed to by seller and buyer, however).</div><div>If the buyer requires the seller to obtain insurance, the Incoterm CIP should be considered instead.</div><div><br></div>",
+  "docstatus": 0,
+  "doctype": "Incoterm",
+  "fullname": "Carriage Paid To",
+  "incoterm_name": null,
+  "modified": "2020-12-22 22:06:12.296544",
+  "name": "CPT",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "<div>This term is broadly similar to the CPT term, with the exception that the seller is required to obtain insurance for the goods while in transit. CIP requires the seller to insure the goods for 110% of the contract value under Institute Cargo Clauses (A) of the Institute of London Underwriters (which is a change from Incoterms 2010 where the minimum was Institute Cargo Clauses (C)), or any similar set of clauses, unless specifically agreed by both parties. The policy should be in the same currency as the contract, and should allow the buyer, the seller, and anyone else with an insurable interest in the goods to be able to make a claim.</div><div>CIP can be used for all modes of transport, whereas the Incoterm CIF should only be used for non-containerized sea-freight.</div><div><br></div>",
+  "docstatus": 0,
+  "doctype": "Incoterm",
+  "fullname": "Carriage and Insurance Paid To",
+  "incoterm_name": "CIP",
+  "modified": "2020-12-22 22:15:21.649733",
+  "name": "CIP",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "<div>Incoterms 2010 defines DAP as 'Delivered at Place' \u2013 the seller delivers when the goods are placed at the disposal of the buyer on the arriving means of transport ready for unloading at the named place of destination. Under DAP terms, the risk passes from seller to buyer from the point of destination mentioned in the contract of delivery.</div><div>Once goods are ready for shipment, the necessary packing is carried out by the seller at their own cost, so that the goods reach their final destination safely. All necessary legal formalities in the exporting country are completed by the seller at their own cost and risk to clear the goods for export.</div><div>After arrival of the goods in the country of destination, the customs clearance in the importing country needs to be completed by the buyer, e.g. import permit, documents required by customs, etc., including all customs duties and taxes.</div><div>Under DAP terms, all carriage expenses with any terminal expenses are paid by seller up to the agreed destination point. The necessary unloading cost at final destination has to be borne by buyer under DAP terms.</div><div><br></div>",
+  "docstatus": 0,
+  "doctype": "Incoterm",
+  "fullname": "Delivered at Place",
+  "incoterm_name": "DAP",
+  "modified": "2020-12-22 22:09:52.038594",
+  "name": "DAP",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "<div>This Incoterm requires that the seller delivers the goods, unloaded, at the named place of destination. The seller covers all the costs of transport (export fees, carriage, unloading from main carrier at destination port and destination port charges) and assumes all risk until arrival at the destination port or terminal.</div><div>The terminal can be a Port, Airport, or inland freight interchange, but must be a facility with the capability to receive the shipment. If the seller is not able to organize unloading, they should consider shipping under DAP terms instead.</div><div>All charges after unloading (for example, Import duty, taxes, customs and on-carriage) are to be borne by buyer. However, it is important to note that any delay or demurrage charges at the terminal will generally be for the seller's account.</div><div><br></div>",
+  "docstatus": 0,
+  "doctype": "Incoterm",
+  "fullname": "Delivered at Place Unloaded",
+  "incoterm_name": "DPU",
+  "modified": "2020-12-22 22:10:34.797269",
+  "name": "DPU",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "<div>Seller is responsible for delivering the goods to the named place in the country of the buyer, and pays all costs in bringing the goods to the destination including import duties and taxes. The seller is not responsible for unloading. This term is often used in place of the non-Incoterm \"Free In Store (FIS)\". This term places the maximum obligations on the seller and minimum obligations on the buyer. No risk or responsibility is transferred to the buyer until delivery of the goods at the named place of destination.<a href=\"https://en.wikipedia.org/wiki/Incoterms#cite_note-17\"><sup>[17]</sup></a></div><div>The most important consideration for DDP terms is that the seller is responsible for clearing the goods through customs in the buyer's country, including both paying the duties and taxes, and obtaining the necessary authorizations and registrations from the authorities in that country. Unless the rules and regulations in the buyer's country are very well understood, DDP terms can be a very big risk both in terms of delays and in unforeseen extra costs, and should be used with caution.</div><div><br></div>",
+  "docstatus": 0,
+  "doctype": "Incoterm",
+  "fullname": "Delivered Duty Paid",
+  "incoterm_name": "DDP",
+  "modified": "2020-12-22 22:11:32.269720",
+  "name": "DDP",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "<div>The seller delivers when the goods are placed alongside the buyer's vessel at the named port of shipment. This means that the buyer has to bear all costs and risks of loss of or damage to the goods from that moment. The FAS term requires the seller to clear the goods for export, which is a reversal from previous Incoterms versions that required the buyer to arrange for export clearance. However, if the parties wish the buyer to clear the goods for export, this should be made clear by adding explicit wording to this effect in the contract of sale. This term should be used only for non-containerized seafreight and inland waterway transport. </div>",
+  "docstatus": 0,
+  "doctype": "Incoterm",
+  "fullname": "Free Alongside Ship",
+  "incoterm_name": "FAS",
+  "modified": "2020-12-22 22:12:01.799403",
+  "name": "FAS",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "<div>Under FOB terms the seller bears all costs and risks up to the point the goods are loaded on board the vessel. The seller's responsibility does not end at that point unless the goods are \"appropriated to the contract\" that is, they are \"clearly set aside or otherwise identified as the contract goods\".<a href=\"https://en.wikipedia.org/wiki/Incoterms#cite_note-19\"><sup>[19]</sup></a> Therefore, FOB contract requires a seller to deliver goods on board a vessel that is to be designated by the buyer in a manner customary at the particular port. In this case, the seller must also arrange for export clearance. On the other hand, the buyer pays cost of marine freight transportation, bill of lading fees, insurance, unloading and transportation cost from the arrival port to destination. Since Incoterms 1980 introduced the Incoterm FCA, FOB should only be used for non-containerized seafreight and inland waterway transport. However, FOB is commonly used incorrectly for all modes of transport despite the contractual risks that this can introduce. In some <a href=\"https://en.wikipedia.org/wiki/Common_law_countries\">common law countries</a> such as the <a href=\"https://en.wikipedia.org/wiki/United_States\">United States of America</a>, FOB is not only connected with the carriage of goods by sea but also used for inland carriage aboard any \"vessel, car or other vehicle.\"<a href=\"https://en.wikipedia.org/wiki/Incoterms#cite_note-20\"><sup>[20]</sup></a></div>",
+  "docstatus": 0,
+  "doctype": "Incoterm",
+  "fullname": "Freight on Board",
+  "incoterm_name": "FOB",
+  "modified": "2020-12-22 22:14:08.110605",
+  "name": "FOB",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "description": "<div>The seller pays for the carriage of the goods up to the named port of destination. Risk transfers to buyer when the goods have been loaded on board the ship in the country of Export. The shipper is responsible for origin costs including export clearance and freight costs for carriage to the named port. The shipper is not responsible for delivery to the final destination from the port (generally the buyer's facilities), or for buying insurance. If the buyer requires the seller to obtain insurance, the Incoterm CIF should be considered. CFR should only be used for non-containerized seafreight and inland waterway transport; for all other modes of transport it should be replaced with CPT. </div>",
+  "docstatus": 0,
+  "doctype": "Incoterm",
+  "fullname": "Cost and Freight",
+  "incoterm_name": "CFR",
+  "modified": "2020-12-22 22:14:36.583294",
+  "name": "CFR",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ }
+]

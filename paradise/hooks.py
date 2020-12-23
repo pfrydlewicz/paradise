@@ -4,12 +4,14 @@ from . import __version__ as app_version
 
 app_name = "paradise"
 app_title = "Paradise"
-app_publisher = "Simatek"
+app_publisher = "FCON"
 app_description = "General custom enhancements for ERPNext."
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "it@berlianmas.com"
 app_license = "MIT"
+
+fixtures = ["Incoterm"]
 
 # Includes in <head>
 # ------------------
