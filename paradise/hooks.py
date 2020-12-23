@@ -11,7 +11,7 @@ app_color = "grey"
 app_email = "it@berlianmas.com"
 app_license = "MIT"
 
-fixtures = ["Incoterm"]
+fixtures = ["Incoterm", {"doctype": "Print Format","filters": {"custom_format": ["=", "1"]}}]
 
 # Includes in <head>
 # ------------------
