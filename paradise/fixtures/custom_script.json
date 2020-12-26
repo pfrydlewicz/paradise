@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Custom Script",
+  "dt": "Packing Slip",
+  "modified": "2020-12-26 08:25:53.064213",
+  "name": "Packing Slip-Client",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "\nfrappe.ui.form.on('Packing Slip', {\n    validate: function(frm, cdt, cdn) {\n        // make calculation on the fields\n        var w = flt(frm.doc.package_width);\n        var l = flt(frm.doc.package_length);\n        var h = flt(frm.doc.package_height);\n        var v = w * l * h;\n        frm.set_value('volume', v);\n        frm.refresh_field('volume');\n    }\n});\n"
+ }
+]
