@@ -11,7 +11,8 @@ app_color = "grey"
 app_email = "it@berlianmas.com"
 app_license = "MIT"
 
-fixtures = ["Incoterm", "Custom Field",
+fixtures = ["Incoterm", 
+            {"doctype": "Custom Field", "filters": {"description": ["=","Module: Paradise"]}},
             {"doctype": "Print Format","filters": {"module": ["=", "Paradise"]}},
             "Custom Script", "Letter Head",
             {"doctype": "UOM","filters": {"abbreviation": ["!=",""]}}
