@@ -12,7 +12,7 @@ app_email = "it@berlianmas.com"
 app_license = "MIT"
 
 fixtures = ["Incoterm", "Custom Field",
-            {"doctype": "Print Format","filters": {"standard": ["=", "No"], "custom_format": ["=","1"]}},
+            {"doctype": "Print Format","filters": {"module": ["=", "Paradise"]}},
             "Custom Script", "Letter Head",
             {"doctype": "UOM","filters": {"abbreviation": ["!=",""]}}
            ]

@@ -24,6 +24,18 @@
   "uom_name": "Centimeter"
  },
  {
+  "abbreviation": "kg",
+  "docstatus": 0,
+  "doctype": "UOM",
+  "modified": "2020-12-27 09:35:48.313214",
+  "must_be_whole_number": 0,
+  "name": "Kg",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "uom_name": "Kg"
+ },
+ {
   "abbreviation": "cbm",
   "docstatus": 0,
   "doctype": "UOM",
