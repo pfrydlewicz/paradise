@@ -1,0 +1,38 @@
+[
+ {
+  "abbreviation": "m",
+  "docstatus": 0,
+  "doctype": "UOM",
+  "modified": "2020-12-27 08:49:09.812731",
+  "must_be_whole_number": 0,
+  "name": "Meter",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "uom_name": "Meter"
+ },
+ {
+  "abbreviation": "cm",
+  "docstatus": 0,
+  "doctype": "UOM",
+  "modified": "2020-12-27 08:49:44.616258",
+  "must_be_whole_number": 0,
+  "name": "Centimeter",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "uom_name": "Centimeter"
+ },
+ {
+  "abbreviation": "cbm",
+  "docstatus": 0,
+  "doctype": "UOM",
+  "modified": "2020-12-27 08:50:28.159463",
+  "must_be_whole_number": 0,
+  "name": "Cubic Meter",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "uom_name": "Cubic Meter"
+ }
+]

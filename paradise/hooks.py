@@ -12,8 +12,10 @@ app_email = "it@berlianmas.com"
 app_license = "MIT"
 
 fixtures = ["Incoterm", "Custom Field",
-            {"doctype": "Print Format","filters": {"standard": ["=", "No"]}},
-            "Custom Script", "Letter Head"]
+            {"doctype": "Print Format","filters": {"standard": ["=", "No"], "custom_format": ["=","1"]}},
+            "Custom Script", "Letter Head",
+            {"doctype": "UOM","filters": {"abbreviation": ["!=",""]}}
+           ]
 
 # Includes in <head>
 # ------------------
