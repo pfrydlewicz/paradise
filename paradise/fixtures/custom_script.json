@@ -31,5 +31,16 @@
   "parentfield": null,
   "parenttype": null,
   "script": "\ncur_frm.add_fetch('salutation_template', 'text', 'salutation_text')\n"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom Script",
+  "dt": "Purchase Order",
+  "modified": "2020-12-28 10:02:50.495315",
+  "name": "Purchase Order-Client",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "\ncur_frm.add_fetch('salutation_template', 'text', 'salutation_text')\n"
  }
 ]
