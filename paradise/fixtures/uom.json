@@ -46,5 +46,29 @@
   "parentfield": null,
   "parenttype": null,
   "uom_name": "Cubic Meter"
+ },
+ {
+  "abbreviation": "kg/m",
+  "docstatus": 0,
+  "doctype": "UOM",
+  "modified": "2021-01-04 14:47:54.407803",
+  "must_be_whole_number": 0,
+  "name": "Kilogram/Meter",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "uom_name": "Kilogram/Meter"
+ },
+ {
+  "abbreviation": "g/m",
+  "docstatus": 0,
+  "doctype": "UOM",
+  "modified": "2021-01-04 14:48:09.789023",
+  "must_be_whole_number": 0,
+  "name": "Gram/Meter",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "uom_name": "Gram/Meter"
  }
 ]

@@ -42,5 +42,16 @@
   "parentfield": null,
   "parenttype": null,
   "script": "\ncur_frm.add_fetch('salutation_template', 'text', 'salutation_text')\n"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom Script",
+  "dt": "Item",
+  "modified": "2021-01-04 14:43:04.467597",
+  "name": "Item-Client",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "cur_frm.fields_dict.product_line.get_query = function(doc) {\n\treturn {\n\t\tfilters: {\n\t\t\tbrand: doc.brand\n\t\t}\n\t}\n}\n"
  }
 ]
