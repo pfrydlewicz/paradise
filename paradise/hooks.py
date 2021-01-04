@@ -12,7 +12,6 @@ app_email = "it@berlianmas.com"
 app_license = "MIT"
 
 fixtures = ["Incoterm",
-            "Product Line",
             {"doctype": "Custom Field", "filters": {"description": ["=","Module: Paradise"]}},
             {"doctype": "Print Format","filters": {"module": ["=", "Paradise"]}},
             "Custom Script", "Letter Head",
