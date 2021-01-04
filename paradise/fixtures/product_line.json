@@ -1,0 +1,68 @@
+[
+ {
+  "brand": "Schneider",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Product Line",
+  "modified": "2021-01-04 14:33:26.945700",
+  "name": "088726a8e0",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "brand": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Product Line",
+  "modified": "2021-01-04 14:34:29.764695",
+  "name": "Domae",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "brand": "Raychem",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Product Line",
+  "modified": "2021-01-04 14:40:08.494799",
+  "name": "VPL Heating Cable",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "brand": "Raychem",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Product Line",
+  "modified": "2021-01-04 14:41:36.725191",
+  "name": "KTV",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "brand": "Schneider",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Product Line",
+  "modified": "2021-01-04 14:41:58.180004",
+  "name": "iP60",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "brand": "Raychem",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Product Line",
+  "modified": "2021-01-04 14:42:20.564008",
+  "name": "SR&PL Heating Cable",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ }
+]
