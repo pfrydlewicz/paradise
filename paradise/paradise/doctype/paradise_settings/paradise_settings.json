@@ -1,0 +1,65 @@
+{
+ "creation": "2021-01-10 14:02:36.422126",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_print_settings_heading",
+  "header_image_height",
+  "print_qr_code",
+  "quotation_print_settings",
+  "quotation_print_signature"
+ ],
+ "fields": [
+  {
+   "default": "60",
+   "fieldname": "header_image_height",
+   "fieldtype": "Int",
+   "label": "Header Image Height"
+  },
+  {
+   "default": "1",
+   "fieldname": "print_qr_code",
+   "fieldtype": "Check",
+   "label": "Print QR Code"
+  },
+  {
+   "fieldname": "general_print_settings_heading",
+   "fieldtype": "Heading",
+   "label": "General Print Settings"
+  },
+  {
+   "fieldname": "quotation_print_settings",
+   "fieldtype": "Heading",
+   "label": "Quotation Print Settings"
+  },
+  {
+   "default": "0",
+   "fieldname": "quotation_print_signature",
+   "fieldtype": "Check",
+   "label": "Print Signature Section"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2021-01-10 14:36:47.542302",
+ "modified_by": "Administrator",
+ "module": "Paradise",
+ "name": "Paradise Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
