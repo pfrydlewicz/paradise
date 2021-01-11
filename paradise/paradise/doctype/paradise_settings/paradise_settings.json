@@ -10,7 +10,12 @@
   "quotation_print_settings",
   "quotation_print_signature",
   "invoice_print_settings",
-  "invoice_bank_account"
+  "invoice_print_signature_section",
+  "invoice_bank_account",
+  "purchase_order_print_settings",
+  "purchase_order_print_signature_section",
+  "sales_order_print_settings",
+  "sales_order_print_signature_section"
  ],
  "fields": [
   {
@@ -51,10 +56,38 @@
    "fieldtype": "Link",
    "label": "Bank account",
    "options": "Bank Account"
+  },
+  {
+   "default": "0",
+   "fieldname": "invoice_print_signature_section",
+   "fieldtype": "Check",
+   "label": "Print Signature Section"
+  },
+  {
+   "fieldname": "purchase_order_print_settings",
+   "fieldtype": "Heading",
+   "label": "Purchase Order Print Settings"
+  },
+  {
+   "fieldname": "sales_order_print_settings",
+   "fieldtype": "Heading",
+   "label": "Sales Order Print Settings"
+  },
+  {
+   "default": "0",
+   "fieldname": "purchase_order_print_signature_section",
+   "fieldtype": "Check",
+   "label": "Print Signature Section"
+  },
+  {
+   "default": "0",
+   "fieldname": "sales_order_print_signature_section",
+   "fieldtype": "Check",
+   "label": "Print Signature Section"
   }
  ],
  "issingle": 1,
- "modified": "2021-01-11 18:39:18.164748",
+ "modified": "2021-01-11 19:18:35.096427",
  "modified_by": "Administrator",
  "module": "Paradise",
  "name": "Paradise Settings",
