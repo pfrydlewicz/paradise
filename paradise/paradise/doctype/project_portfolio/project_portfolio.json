@@ -1,0 +1,108 @@
+{
+ "allow_rename": 1,
+ "autoname": "Prompt",
+ "creation": "2021-01-17 08:07:37.387377",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_location",
+  "end_user",
+  "end_user_logo",
+  "cb1_column",
+  "project_date",
+  "project_volume",
+  "project_scope",
+  "sb_details",
+  "slideshow",
+  "description",
+  "main_image",
+  "currency"
+ ],
+ "fields": [
+  {
+   "fieldname": "end_user",
+   "fieldtype": "Data",
+   "label": "End user"
+  },
+  {
+   "fieldname": "project_scope",
+   "fieldtype": "Data",
+   "label": "Scope"
+  },
+  {
+   "fieldname": "project_date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "project_location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "main_image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Image"
+  },
+  {
+   "fieldname": "end_user_logo",
+   "fieldtype": "Attach Image",
+   "label": "End user logo"
+  },
+  {
+   "fieldname": "slideshow",
+   "fieldtype": "Link",
+   "label": "Slideshow",
+   "options": "Website Slideshow"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "project_volume",
+   "fieldtype": "Data",
+   "label": "Volume"
+  },
+  {
+   "fieldname": "cb1_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sb_details",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
+  }
+ ],
+ "image_field": "main_image",
+ "modified": "2021-01-17 08:53:49.483669",
+ "modified_by": "Administrator",
+ "module": "Paradise",
+ "name": "Project Portfolio",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
