@@ -8,9 +8,9 @@ from frappe import _
 from frappe.model.document import Document
 from frappe.website.website_generator import WebsiteGenerator
 
-class ProjectPortfolio(WebsiteGenerator):
+class PortfolioProject(WebsiteGenerator):
 	website = frappe._dict(
-		template = "templates/generators/project_portfolio.html"
+		template = "templates/generators/portfolio_project.html"
 	)
 	
 	def validate(self):
