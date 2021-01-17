@@ -86,8 +86,10 @@
    "label": "Publish"
   },
   {
+   "default": "portfolios",
    "fieldname": "route",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Route"
   },
   {
@@ -100,7 +102,7 @@
  "has_web_view": 1,
  "image_field": "main_image",
  "is_published_field": "publish",
- "modified": "2021-01-17 21:11:43.604482",
+ "modified": "2021-01-17 21:26:30.624555",
  "modified_by": "Administrator",
  "module": "Paradise",
  "name": "Project Portfolio",
@@ -131,7 +133,7 @@
    "write": 1
   }
  ],
- "route": "portfolio",
+ "route": "portfolios",
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1
