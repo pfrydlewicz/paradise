@@ -13,8 +13,8 @@ Wir arbeiten jetzt an einer neuen Ansicht
 			{%- endif %}
 			
 		</div>
-		<div class="col-md-4">
-			<table>
+		<div class="col-md-6">
+			<table class="w-100">
 				<tr>
 					<td>{{ _("Project") }}:</td>
 					<td><b>{{ name }}<b></td>
@@ -45,6 +45,12 @@ Wir arbeiten jetzt an einer neuen Ansicht
 					<td>{{ _("Volume") }}:</td>
 					<td>{{ project_volume }}</td>
 				</tr>
+				{% if description %}
+				<tr>
+					<td></td>
+					<td>{{ description }}</td>
+				</tr>
+				{% endif %}
 			</table>
 		</div>
 	</div>

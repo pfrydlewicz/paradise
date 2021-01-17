@@ -19,8 +19,7 @@
   "slideshow",
   "description",
   "main_image",
-  "route",
-  "page_name"
+  "route"
  ],
  "fields": [
   {
@@ -90,17 +89,12 @@
    "fieldname": "route",
    "fieldtype": "Data",
    "label": "Route"
-  },
-  {
-   "fieldname": "page_name",
-   "fieldtype": "Data",
-   "label": "Page Name"
   }
  ],
  "has_web_view": 1,
  "image_field": "main_image",
  "is_published_field": "publish",
- "modified": "2021-01-17 21:47:42.217800",
+ "modified": "2021-01-17 22:37:52.555259",
  "modified_by": "Administrator",
  "module": "Paradise",
  "name": "Portfolio Project",

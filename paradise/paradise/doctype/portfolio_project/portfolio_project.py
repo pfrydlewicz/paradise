@@ -14,5 +14,5 @@ class PortfolioProject(WebsiteGenerator):
 	)
 	
 	def validate(self):
-		self.page_name = self.name.lower()
+		self.route = self.route + "/" + self.name.lower()
 
