@@ -2,15 +2,52 @@
 
 {% block title %} {{ title }} {% endblock %}
 
+{% block header %}<h2>{{ _("Project summary") }}</h2>{% endblock %}
+Wir arbeiten jetzt an einer neuen Ansicht
 {% block page_content %}
-	Portfolio projects of APL
+<div class="portfolio-project-content" itemscope itemtype="http://schema.org/Organization">
+	<div class="row">
+		<div class="col-md-4">
+			{% if main_image -%}
+			<img src="{{ main_image }}" class="main-image"/>
+			{%- endif %}
+			
+		</div>
+		<div class="col-md-4">
+			<table>
+				<tr>
+					<td>{{ _("Project") }}:</td>
+					<td><b>{{ name }}<b></td>
+				</tr>
+				<tr>
+					<td>{{ _("End user") }}:</td>
+					<td><b>{{ end_user }}<b></td>
+				</tr>
+				{% if end_user_logo -%}
+				<tr>
+					<td></td>
+					<td><img src="{{ end_user_logo }}" class="end-user-logo"style="height:80px"/></td>
+				</tr>
+				{% endif %}
+				<tr>
+					<td>{{ _("Location") }}:</td>
+					<td>{{ project_location }}</td>
+				</tr>
+				<tr>
+					<td>{{ _("Scope") }}:</td>
+					<td>{{ project_scope }}</td>
+				</tr>
+				<tr>
+					<td>{{ _("Year") }}:</td>
+					<td>{{ _(frappe.utils.get_datetime(project_date).strftime("%Y",)) }}</td>
+				</tr>
+				<tr>
+					<td>{{ _("Volume") }}:</td>
+					<td>{{ project_volume }}</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
 {% endblock %}
 
-{% block base_scripts %}
-<!-- js should be loaded in body! -->
-<script type="text/javascript" src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/js/frappe-web.min.js"></script>
-<script type="text/javascript" src="/assets/js/control.min.js"></script>
-<script type="text/javascript" src="/assets/js/dialog.min.js"></script>
-<script type="text/javascript" src="/assets/js/bootstrap-4-web.min.js"></script>
-{% endblock %}
