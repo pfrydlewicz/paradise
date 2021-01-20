@@ -7,6 +7,8 @@ import frappe
 from frappe import _
 from frappe.model.document import Document
 from frappe.website.website_generator import WebsiteGenerator
+from frappe.website.doctype.website_slideshow.website_slideshow import \
+	get_slideshow
 
 class PortfolioProject(WebsiteGenerator):
 	website = frappe._dict(
@@ -14,5 +16,9 @@ class PortfolioProject(WebsiteGenerator):
 	)
 	
 	def validate(self):
-		self.route = self.route + "/" + self.name.lower()
+		pass
 
+	def make_route(self):
+		route = "/portfolio-projects/" + self.name.lower()
+
+		

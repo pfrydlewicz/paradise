@@ -1,0 +1,49 @@
+<div class="card mb-3">
+	<div class="row no-gutters">
+		<div class="col-md-3">
+			<div class="card-body">
+				<div class="row"><a class="no-underline" href="/{{ project.route }}">
+                        <img class="website-image" src="{{ project.main_image or 'no-image.jpg' }}" alt="{{ project.name }}">
+                    </a>
+                </div>
+                <div class="row">
+                    {% if project.end_user_logo %}
+                        <a class="no-underline" href="/{{ project.route }}">
+                            <img class="end-user-logo" src="{{ project.end_user_logo or 'no-image.jpg' }}" alt="{{ project.end_user }}">
+                        </a>
+                    {% endif %}
+                </div>
+			</div>
+		</div>
+		<div class="col-md-9">
+			<div class="card-body">
+				<table style="width:100%">
+					<tr>
+						<td style="width:90%">
+							<h5 class="card-title">
+								<a class="text-dark" href="/{{ project.route }}">
+									{{ project.name }}
+								</a>
+							</h5>
+						</td>
+						<td class="card-body" style="width:10%;">
+							<p class="card-title text-dark">
+								{{ _(frappe.utils.get_datetime(project.project_date).strftime("%Y",)) }}
+							</p>
+						</td>
+					</tr>
+				</table>
+				<p class="card-text">
+					{{ _("End user") }}: {{ project.end_user }}
+				</p>
+				<p class="card-text">
+					{{ _("Scope")}}: {{ project.project_scope }}
+				</p>
+				<p class="card-text">
+					{{ _("Volume")}}: {{ project.project_volume }}
+				</p>
+				<a href="/{{ project.route }}" class="btn btn-sm btn-light">{{ _('More details') }}</a>
+			</div>
+		</div>
+	</div>
+</div>

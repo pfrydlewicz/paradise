@@ -1,0 +1,23 @@
+{% extends "templates/web.html" %}
+
+{% block title %}{{ _("Project Portfolio") }}{% endblock %}
+{% block header %}
+<h1>{{ _('Project Portfolio') }}</h1>
+{% endblock header %}
+
+{% block page_content %}
+
+<div class="row">
+	<div class="col-12 order-2 col-md-8 order-md-1 portfolio-project-list">
+		{% if projects %}
+			{% for project in projects %}
+				{% include "paradise/www/project-portfolio-all/project-row.html" %}
+			{% endfor %}
+		{% else %}
+			{% include "paradise/www/project-portfolio-all/not_found.html" %}
+		{% endif %}
+	</div>
+</div>
+
+{% endblock %}
+

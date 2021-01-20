@@ -55,7 +55,7 @@ fixtures = [{"doctype": "Custom Field", "filters": {"description": ["=","Module:
 # ----------
 
 # automatically create page for each record of this doctype
-website_generators = ["Project Portfolio", "Portfolio Project"]
+website_generators = ["Portfolio Project"]
 
 # Installation
 # ------------
