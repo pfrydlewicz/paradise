@@ -1,1 +1,57 @@
-[]
+[
+ {
+  "docstatus": 0,
+  "doctype": "Custom Script",
+  "dt": "Packing Slip",
+  "modified": "2020-12-26 08:25:53.064213",
+  "name": "Packing Slip-Client",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "\nfrappe.ui.form.on('Packing Slip', {\n    validate: function(frm, cdt, cdn) {\n        // make calculation on the fields\n        var w = flt(frm.doc.package_width);\n        var l = flt(frm.doc.package_length);\n        var h = flt(frm.doc.package_height);\n        var v = w * l * h;\n        frm.set_value('volume', v);\n        frm.refresh_field('volume');\n    }\n});\n"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom Script",
+  "dt": "Quotation",
+  "modified": "2020-12-27 22:55:44.938529",
+  "name": "Quotation-Client",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "\ncur_frm.add_fetch('salutation_template', 'text', 'salutation_text')\n"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom Script",
+  "dt": "Sales Order",
+  "modified": "2020-12-27 23:08:30.014797",
+  "name": "Sales Order-Client",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "\ncur_frm.add_fetch('salutation_template', 'text', 'salutation_text')\n"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom Script",
+  "dt": "Purchase Order",
+  "modified": "2020-12-28 10:02:50.495315",
+  "name": "Purchase Order-Client",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "\ncur_frm.add_fetch('salutation_template', 'text', 'salutation_text')\n"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom Script",
+  "dt": "Item",
+  "modified": "2021-01-04 14:43:04.467597",
+  "name": "Item-Client",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "cur_frm.fields_dict.product_line.get_query = function(doc) {\n\treturn {\n\t\tfilters: {\n\t\t\tbrand: doc.brand\n\t\t}\n\t}\n}\n"
+ }
+]
