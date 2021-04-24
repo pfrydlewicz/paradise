@@ -22,3 +22,8 @@ class PortfolioProject(WebsiteGenerator):
 		route = "/portfolio-projects/" + self.name.lower()
 
 		
+	def get_context(self, context):
+		if self.slideshow:
+			context.update(get_slideshow(self))
+
+		return context
