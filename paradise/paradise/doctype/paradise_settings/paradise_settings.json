@@ -8,10 +8,13 @@
   "header_image_height",
   "print_qr_code",
   "quotation_print_settings",
+  "quotation_print_date",
   "quotation_print_issuer",
   "quotation_print_customer_number",
+  "quotation_print_incoterm",
   "quotation_print_signature",
   "invoice_print_settings",
+  "invoice_print_date",
   "invoice_print_issuer",
   "invoice_print_customer_number",
   "invoice_print_signature_section",
@@ -112,10 +115,28 @@
    "fieldname": "quotation_print_customer_number",
    "fieldtype": "Check",
    "label": "Print Customer Number"
+  },
+  {
+   "default": "1",
+   "fieldname": "quotation_print_incoterm",
+   "fieldtype": "Check",
+   "label": "Print Incoterm"
+  },
+  {
+   "default": "0",
+   "fieldname": "quotation_print_date",
+   "fieldtype": "Check",
+   "label": "Print Issue Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "invoice_print_date",
+   "fieldtype": "Check",
+   "label": "Print Issue Date"
   }
  ],
  "issingle": 1,
- "modified": "2022-01-07 23:16:46.330604",
+ "modified": "2022-01-07 23:43:52.581017",
  "modified_by": "Administrator",
  "module": "Paradise",
  "name": "Paradise Settings",
