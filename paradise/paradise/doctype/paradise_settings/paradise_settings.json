@@ -9,8 +9,12 @@
   "print_qr_code",
   "quotation_print_settings",
   "quotation_print_signature",
+  "quotation_print_customer_number",
+  "quotation_print_issuer",
   "invoice_print_settings",
   "invoice_print_signature_section",
+  "invoice_print_customer_number",
+  "invoice_print_issuer",
   "invoice_bank_account",
   "purchase_order_print_settings",
   "purchase_order_print_signature_section",
@@ -47,6 +51,18 @@
    "label": "Print Signature Section"
   },
   {
+   "default": "1",
+   "fieldname": "quotation_print_customer_number",
+   "fieldtype": "Check",
+   "label": "Print Customer Number"
+  },
+  {
+   "default": "1",
+   "fieldname": "quotation_print_issuer",
+   "fieldtype": "Check",
+   "label": "Print Issuer Name"
+  },
+  {
    "fieldname": "invoice_print_settings",
    "fieldtype": "Heading",
    "label": "Invoice Print Settings"
@@ -62,6 +78,18 @@
    "fieldname": "invoice_print_signature_section",
    "fieldtype": "Check",
    "label": "Print Signature Section"
+  },
+  {
+   "default": "1",
+   "fieldname": "invoice_print_customer_number",
+   "fieldtype": "Check",
+   "label": "Print Customer Number"
+  },
+  {
+   "default": "1",
+   "fieldname": "invoice_print_issuer",
+   "fieldtype": "Check",
+   "label": "Print Issuer Name"
   },
   {
    "fieldname": "purchase_order_print_settings",
