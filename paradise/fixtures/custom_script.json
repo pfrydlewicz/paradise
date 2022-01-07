@@ -2,6 +2,17 @@
  {
   "docstatus": 0,
   "doctype": "Custom Script",
+  "dt": "Sales Invoice",
+  "modified": "2021-02-10 04:16:56.032812",
+  "name": "Sales Invoice-Client",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on('Sales Invoice', {\n\trefresh(frm) {\n\t\t// your code here\n\t}\n})\n\nfrappe.ui.form.on(\"Sales Invoice\", \"invoice_percentage\", function(frm) {\n    var perc = frm.doc.invoice_percentage;\n    $.each(frm.doc.items, function(index, row){\n        frappe.model.set_value(row.doctype, row.name, \"billing_percentage\", perc)\n        frappe.model.set_value(row.doctype, row.name, \"qty\", row.original_qty * perc / 100)\n    });\n});\n\nfrappe.ui.form.on(\"Sales Invoice Item\", \"original_qty\", function(frm, cdt, cdn) {\n    var row = locals[cdt][cdn];\n    frappe.model.set_value(row.doctype, row.name, \"qty\", row.original_qty * row.billing_percentage / 100)\n});\n"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom Script",
   "dt": "Packing Slip",
   "modified": "2020-12-26 08:25:53.064213",
   "name": "Packing Slip-Client",
